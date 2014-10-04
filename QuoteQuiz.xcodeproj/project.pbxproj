@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		2B63AD8319DF7E54003D9941 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B63AD8219DF7E54003D9941 /* main.m */; };
-		2B63AD8619DF7E54003D9941 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B63AD8519DF7E54003D9941 /* AppDelegate.m */; };
-		2B63AD8919DF7E54003D9941 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B63AD8819DF7E54003D9941 /* ViewController.m */; };
+		2B63AD8619DF7E54003D9941 /* QQAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B63AD8519DF7E54003D9941 /* QQAppDelegate.m */; };
+		2B63AD8919DF7E54003D9941 /* QQViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B63AD8819DF7E54003D9941 /* QQViewController.m */; };
 		2B63AD8C19DF7E54003D9941 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B63AD8A19DF7E54003D9941 /* Main.storyboard */; };
 		2B63AD8E19DF7E54003D9941 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B63AD8D19DF7E54003D9941 /* Images.xcassets */; };
 		2B63AD9119DF7E54003D9941 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B63AD8F19DF7E54003D9941 /* LaunchScreen.xib */; };
 		2B63AD9D19DF7E54003D9941 /* QuoteQuizTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B63AD9C19DF7E54003D9941 /* QuoteQuizTests.m */; };
+		2B63ADA819DF8340003D9941 /* Quiz.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B63ADA719DF8340003D9941 /* Quiz.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,16 +31,18 @@
 		2B63AD7D19DF7E54003D9941 /* QuoteQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuoteQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B63AD8119DF7E54003D9941 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2B63AD8219DF7E54003D9941 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2B63AD8419DF7E54003D9941 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		2B63AD8519DF7E54003D9941 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2B63AD8719DF7E54003D9941 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2B63AD8819DF7E54003D9941 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2B63AD8419DF7E54003D9941 /* QQAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QQAppDelegate.h; sourceTree = "<group>"; };
+		2B63AD8519DF7E54003D9941 /* QQAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQAppDelegate.m; sourceTree = "<group>"; };
+		2B63AD8719DF7E54003D9941 /* QQViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QQViewController.h; sourceTree = "<group>"; };
+		2B63AD8819DF7E54003D9941 /* QQViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQViewController.m; sourceTree = "<group>"; };
 		2B63AD8B19DF7E54003D9941 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2B63AD8D19DF7E54003D9941 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		2B63AD9019DF7E54003D9941 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		2B63AD9619DF7E54003D9941 /* QuoteQuizTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuoteQuizTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B63AD9B19DF7E54003D9941 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2B63AD9C19DF7E54003D9941 /* QuoteQuizTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuoteQuizTests.m; sourceTree = "<group>"; };
+		2B63ADA619DF8340003D9941 /* Quiz.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Quiz.h; sourceTree = "<group>"; };
+		2B63ADA719DF8340003D9941 /* Quiz.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Quiz.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,11 +84,13 @@
 		2B63AD7F19DF7E54003D9941 /* QuoteQuiz */ = {
 			isa = PBXGroup;
 			children = (
-				2B63AD8419DF7E54003D9941 /* AppDelegate.h */,
-				2B63AD8519DF7E54003D9941 /* AppDelegate.m */,
-				2B63AD8719DF7E54003D9941 /* ViewController.h */,
-				2B63AD8819DF7E54003D9941 /* ViewController.m */,
+				2B63AD8419DF7E54003D9941 /* QQAppDelegate.h */,
+				2B63AD8519DF7E54003D9941 /* QQAppDelegate.m */,
+				2B63AD8719DF7E54003D9941 /* QQViewController.h */,
+				2B63AD8819DF7E54003D9941 /* QQViewController.m */,
 				2B63AD8A19DF7E54003D9941 /* Main.storyboard */,
+				2B63ADA619DF8340003D9941 /* Quiz.h */,
+				2B63ADA719DF8340003D9941 /* Quiz.m */,
 				2B63AD8D19DF7E54003D9941 /* Images.xcassets */,
 				2B63AD8F19DF7E54003D9941 /* LaunchScreen.xib */,
 				2B63AD8019DF7E54003D9941 /* Supporting Files */,
@@ -163,6 +168,7 @@
 		2B63AD7519DF7E54003D9941 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = QQ;
 				LastUpgradeCheck = 0600;
 				ORGANIZATIONNAME = "Goodman, Jarryd A - (jarryd999)";
 				TargetAttributes = {
@@ -219,8 +225,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B63AD8919DF7E54003D9941 /* ViewController.m in Sources */,
-				2B63AD8619DF7E54003D9941 /* AppDelegate.m in Sources */,
+				2B63AD8919DF7E54003D9941 /* QQViewController.m in Sources */,
+				2B63AD8619DF7E54003D9941 /* QQAppDelegate.m in Sources */,
+				2B63ADA819DF8340003D9941 /* Quiz.m in Sources */,
 				2B63AD8319DF7E54003D9941 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

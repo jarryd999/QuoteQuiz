@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 Goodman, Jarryd A - (jarryd999). All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import "QQAppDelegate.h"
 
 @interface AppDelegate ()
 
